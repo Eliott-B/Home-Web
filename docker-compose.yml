@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: nginx:1.25.3-alpine
+    container_name: home-nginx
+    restart: always
+    volumes:
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./src:/var/www/html
+    ports:
+      - "80:80"
+    depends_on:
+      - php
+  
+  php:
+    image: php:fpm
+    container_name: home-php
+    restart: always
+    expose:
+       - 9000
+    volumes:
+      - ./src:/var/www/html
