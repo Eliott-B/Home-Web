@@ -1,0 +1,32 @@
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 90vh; 
+    font-size: x-large;
+}
+
+.info {
+    text-align: center;
+    padding: 0.5em;
+    padding-right: 2.5em;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+img {
+    margin-right: 1em;
+}

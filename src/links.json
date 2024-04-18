@@ -1,12 +1,12 @@
 [
     {
         "name": "Terminal des devs",
-        "link": "https://discord.gg/kXsfVBzhxR",
-        "image": "asset/tdd.png"
+        "url": "https://discord.gg/kXsfVBzhxR",
+        "img": "./img/tdd.png"
     },
     {
         "name": "GitHub",
-        "link": "https://www.github.com/Eliott-B",
-        "image": "asset/github.png"
+        "url": "https://www.github.com/Eliott-B",
+        "img": "./img/github.png"
     }
 ]
